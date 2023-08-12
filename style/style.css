@@ -10,3 +10,53 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
+.header-sec{
+
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+.nav-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-heading{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.nav-items{
+    display: flex;
+}
+.nav-item{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 30px;
+}
+.nav-item>a{
+    text-decoration: none;
+}
+/* banner style */
+.banner-content{
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.banner-title{
+    color: var(--dark-01, #131313);
+    font-size: 64px;
+    font-weight: 700;
+}
+.banner-description{
+    color: var(--dark-03, #727272);
+    font-size: 16px;
+    line-height: 26px; 
+}
+.btn{
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px;
+}
