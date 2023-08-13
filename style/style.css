@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,600;1,700&family=Open+Sans:ital,wght@0,500;0,800;1,500;1,600;1,800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,800&display=swap');
 
-
+/* global section */
 *{
 font-family: 'Marck Script', cursive;
 font-family: 'Montserrat', sans-serif;
@@ -10,32 +10,49 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
-.header-sec{
+body{
+    padding: 0px;
+    margin: 0px;
+}
 
+.btn-primary{
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* header section */
+header{
     background: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
 }
-.nav-sec{
+
+/* nav section */
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .nav-heading{
-    font-size: 45px;
+    font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
 }
 
-.nav-items{
+nav ul{
     display: flex;
 }
 .nav-item{
     list-style: none;
-    font-size: 18px;
-    font-weight: 500;
-    margin: 30px;
+    font-size: 1rem;
+    margin: 10px;
 }
-.nav-item>a{
+nav li a{
     text-decoration: none;
 }
 /* banner style */
@@ -43,20 +60,55 @@ font-family: 'Work Sans', sans-serif;
     width: 800px;
     text-align: center;
     margin: 0 auto;
-
 }
+
 .banner-title{
     color: var(--dark-01, #131313);
-    font-size: 64px;
+    font-size: 3.5rem;
     font-weight: 700;
+    text-align: center;
+    /* margin: 0rem 30px; */
 }
 .banner-description{
     color: var(--dark-03, #727272);
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 26px; 
 }
-.btn{
-    border-radius: 8px;
-    background: #FF900E;
-    padding: 20px;
+.banner-img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+/* responsive media */
+
+@media screen and (max-width: 576px){
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    /* .banner-title{
+        width: 350px;
+        align-items: center;
+    }
+    .banner-description{
+        width: 350px;
+    } */
+
+    /* .banner-content{
+        width: 350px;
+    } */
+
+}
+
+/* tab media */
+@media screen and (min-width: 576px) and (max-width: 960px){
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
 }
