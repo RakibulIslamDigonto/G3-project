@@ -82,6 +82,42 @@ nav li a{
     margin-top: 20px;
     width: 100%;
 }
+/* main section */
+main{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.main-sec{
+    display: flex;
+    align-items: center;
+}
+.teams-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.team-details{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.quick-list{
+    color: var(--dark-03, #727272);
+    font-weight: 500;
+    font-size: 2.8rem;
+}
+.of-Our{
+    color: var(--dark-01, #131313);
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+.text-features{
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+
+
 
 
 /* responsive media */
