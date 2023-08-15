@@ -33,6 +33,17 @@ body{
     align-items: center;
     
 }
+.section-title{
+    color: var(--dark-01, #131313);
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+.heading{
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
 
 /* header section */
 header{
@@ -46,11 +57,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.nav-heading{
-    font-size: 2.5rem;
-    font-weight: 700;
-    text-align: center;
-}
+
 
 nav ul{
     display: flex;
@@ -71,12 +78,11 @@ nav li a{
     margin: 0 auto;
 }
 
-.banner-title{
+.section-title{
     color: var(--dark-01, #131313);
     font-size: 3.5rem;
     font-weight: 700;
     text-align: center;
-    /* margin: 0rem 30px; */
 }
 
 .banner-img{
@@ -86,20 +92,25 @@ nav li a{
 /* main section */
 main{
     max-width: 1440px;
-    margin: 80px auto;
+    margin: 80px 200px;
 }
-.main-sec{
+/* main-sec */
+.features-list{
     display: flex;
     align-items: center;
+}
+.team-img{
+    width: 240px;
+    height: 240px;
 }
 .teams-images{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+    gap: 1rem;
 }
 .team-details{
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .quick-list{
     color: var(--dark-03, #727272);
@@ -127,7 +138,7 @@ main{
     header{
         padding: 20px;
     }
-    nav, .main-sec{
+    nav, .features-list{
         flex-direction: column;
     }
     .banner-content{
@@ -151,7 +162,7 @@ main{
     .banner-title{
         font-size: 2.5rem;
     }
-    nav, .main-sec{
+    nav, .features-list{
         flex-direction: column;
     }
 }
