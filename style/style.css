@@ -78,12 +78,12 @@ nav li a{
     margin: 0 auto;
 }
 
-.section-title{
+/* .section-title{
     color: var(--dark-01, #131313);
     font-size: 3.5rem;
     font-weight: 700;
     text-align: center;
-}
+} */
 
 .banner-img{
     margin-top: 20px;
@@ -133,9 +133,20 @@ main{
     margin: 5px;
     margin-top: 130px;
 }
-.fact-sec .text-description{
-    width: 542px;
+.fact-title{
+    color: var(--dark-01, #131313);
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 0px;
 }
+.fact-description{
+    color: var(--dark-03, #727272);
+    font-size: 1rem;
+    line-height: 26px;
+}
+/* .fact-sec .text-description{
+    width: 542px;
+} */
 .fact-cards{
     display: flex;
     justify-content: space-around;
@@ -160,7 +171,80 @@ main{
     margin: 5px;
 }
 
+/* sponsors-section */
+.sponsors-sec{
+        margin-top: 150px;
+        align-items: center;
+        text-align: center;
+}
+.sponsors-imgs{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
 
+.sponsor-title{
+    margin: 5px;
+}
+.features{
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+.feature-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    margin-top: 0px;
+    color: var(--dark-01, #131313);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.feature-description{
+    color: var(--dark-03, #727272);
+    font-size: 1rem;
+    line-height: 26px;
+}
+.feature-card{
+    padding: 18px;
+    margin: 20px;
+    justify-content: space-around;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    background: #FFF;
+    box-shadow: 0px 1px 5px 0px
+}
+.card-title{
+    color: var(--dark-01, #131313);
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.feature-img img{
+    height: 90%;
+    margin-left: 60px;
+}
+.badge-exparience{
+    border-radius: 8px;
+    background: #FF900E;
+    width: 340px;
+    padding: 60px 10px 60px 10px;
+    position: relative;
+    bottom: 100px;
+
+}
+.badge-title{
+    color: #FFF;
+    margin: 0px;
+    font-size: 3rem;
+    text-align: center;
+}
+.Experience{
+    color: #FFF;
+    margin: 0px;
+    font-size: 1.5rem;
+    text-align: center;
+}
 
 
 
@@ -170,7 +254,7 @@ main{
     header{
         padding: 20px;
     }
-    nav, .features-list, .fact-cards{
+    nav, .features-list, .fact-sec, .fact-cards, .sponsors-imgs, .features{
         flex-direction: column;
     }
     .banner-content{
@@ -187,6 +271,7 @@ main{
         gap: 20px;
     }
 
+
 }
 
 /* tab media */
@@ -197,7 +282,7 @@ main{
     .banner-title{
         font-size: 2.5rem;
     }
-    nav, .features-list{
+    nav, .features-list, .sponsors-imgs, .features{
         flex-direction: column;
     }
     .fact-cards{
