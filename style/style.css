@@ -14,6 +14,9 @@ body{
     padding: 0px;
     margin: 0px;
 }
+.main-sec{
+    margin: 0px;
+}
 .text-description{
     color: var(--dark-03, #727272);
     font-size: 1rem;
@@ -206,7 +209,7 @@ main{
     line-height: 26px;
 }
 .feature-card{
-    width: 330px;
+    width: 20.6rem;
     padding: 18px;
     margin: 20px;
     justify-content: space-around;
@@ -282,6 +285,9 @@ main{
     }
     .banner-title{
         font-size: 2.5rem;
+    }
+    .features{
+        padding: 0px;
     }
     nav, .features-list, .sponsors-imgs, .features{
         flex-direction: column;
