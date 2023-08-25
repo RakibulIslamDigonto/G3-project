@@ -14,9 +14,7 @@ body{
     padding: 0px;
     margin: 0px;
 }
-.main-sec{
-    margin: 10px;
-}
+
 .text-description{
     color: var(--dark-03, #727272);
     font-size: 1rem;
@@ -258,6 +256,9 @@ main{
     header{
         padding: 20px;
     }
+    .main-sec{
+    margin: 5px;
+}
     nav, .features-list, .fact-sec, .fact-cards, .sponsors-imgs, .features{
         flex-direction: column;
     }
@@ -289,6 +290,9 @@ main{
     .features{
         padding: 0px;
     }
+    .main-sec{
+    margin: 15px;
+}
     nav, .features-list, .sponsors-imgs, .features{
         flex-direction: column;
     }
