@@ -256,9 +256,7 @@ main{
     header{
         padding: 20px;
     }
-    .main-sec{
-    margin: 5px;
-}
+
     nav, .features-list, .fact-sec, .fact-cards, .sponsors-imgs, .features{
         flex-direction: column;
     }
@@ -290,9 +288,6 @@ main{
     .features{
         padding: 0px;
     }
-    .main-sec{
-    margin: 15px;
-}
     nav, .features-list, .sponsors-imgs, .features{
         flex-direction: column;
     }
