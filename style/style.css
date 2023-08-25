@@ -15,7 +15,7 @@ body{
     margin: 0px;
 }
 .main-sec{
-    margin: 0px;
+    margin: 10px;
 }
 .text-description{
     color: var(--dark-03, #727272);
