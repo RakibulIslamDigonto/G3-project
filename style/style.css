@@ -206,6 +206,7 @@ main{
     line-height: 26px;
 }
 .feature-card{
+    width: 330px;
     padding: 18px;
     margin: 20px;
     justify-content: space-around;
@@ -221,7 +222,7 @@ main{
     font-weight: 600;
 }
 .feature-img img{
-    height: 90%;
+    height: 60%;
     margin-left: 60px;
 }
 .badge-exparience{
